@@ -35,7 +35,7 @@ export default function RootLayout({
       className={`${cormorantGaramond.variable} ${dmSans.variable}`}
     >
       <body className="font-body bg-parchment text-sea-deep min-h-screen flex flex-col">
-        <div className="max-w-[560px] px-16 py-12 min-h-screen flex flex-col max-[900px]:max-w-full max-[900px]:px-8 max-[900px]:py-8 max-[900px]:pt-[42vh] max-[900px]:min-h-0 max-[500px]:px-6 max-[500px]:py-6 max-[500px]:pt-[38vh]">
+        <div className="max-w-[560px] px-16 py-12 min-h-screen flex flex-col bg-parchment/90 max-[900px]:max-w-full max-[900px]:px-8 max-[900px]:py-8 max-[900px]:min-h-0 max-[500px]:px-6 max-[500px]:py-6">
           <Header />
           {children}
           <Footer />

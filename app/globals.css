@@ -40,11 +40,3 @@ body {
   background-size: cover;
   background-position: right center;
 }
-
-@media (max-width: 900px) {
-  body {
-    background-position: center top;
-    background-size: auto 40vh;
-    background-attachment: scroll;
-  }
-}
